@@ -1,17 +1,18 @@
 <script setup lang="ts">
 import type { NavigationMenuItem } from '@nuxt/ui'
-
+import {useSpeciesStore} from "~/store/species";
+const species = useSpeciesStore()
 const items = ref<NavigationMenuItem[]>([
   {label: 'Svin.space',
     to: '/',
   },
   {
-    label: 'Classic Species Guidelines',
+    label: species.value + ' Species Guidelines',
     icon: 'game-icons:dripping-goo',
     to: '/species'
   },
   {
-    label: 'Classic Reference',
+    label: species.value + ' Reference',
     icon: 'game-icons:leaky-skull',
     to: '/ref'
   },
@@ -29,7 +30,7 @@ const items = ref<NavigationMenuItem[]>([
       {
         label: 'Copyright and Usage',
         icon: 'i-lucide-file-text',
-        description: 'What is the copyright and usage rules for Classic Svins?',
+        description: 'What is the copyright and usage rules for '+ species.value +'?',
         to: '/faq/copyright'
       },
       {
