@@ -61,7 +61,7 @@ const species = useSpeciesStore()
         <li>Sexual Orientation, Gender Identity, and Fetish Preference are not Perscribed by the Species</li>
       </ul>
 
-      <p>Accessories:</p>
+      <p>General Accessories often seen on {{species.value}}:</p>
       <ul>
         <li>Accessories can also melt along with {{species.value}}</li>
         <li>Crown is metallic</li>
