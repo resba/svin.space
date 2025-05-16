@@ -15,7 +15,7 @@ const species = useSpeciesStore()
       <p>In May of 2025, the creator begin taking interest in controlling the future of the species which was not discussed with the community of people with characters in the species. This included restrictions such as: Mandatory Character Death after a fixed time period, Mandatory Sexual Orientation of new Svins, Adherance to strict guidelines and general fraternization with the creator to stay in the species definition properly, and other guidelines that were deemed too restrictive and generally self-destructive.</p>
       <p>As such, we've created this page to document the {{species.value}} species which follows the rules and guidelines that we all have been adhering to since 2018, after being functionally abandoned by the Original Creator after selling all characters.</p>
       <hr>
-      <h2 class="page-header">Species Description Goes Here...</h2>
+      <h2 class="page-header">Species Description &amp; Features</h2>
       <p>In general, This describes the base canid-like form of a {{species.value}}. Everything can vary, especially when merging with other characters and borrowing their features.</p>
       <p>Overall features:</p>
       <ul>
