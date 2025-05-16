@@ -32,3 +32,9 @@ p {
 .main-text {
     font-size: 72px;
 }
+
+#body a {
+    --tw-font-weight: var(--font-weight-bold);
+    font-weight: var(--font-weight-bold);
+    text-decoration-line: underline;
+}

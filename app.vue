@@ -19,7 +19,7 @@ const items = ref<NavigationMenuItem[]>([
   {
     label: 'What About...',
     icon: 'game-icons:barrel-leak',
-    to: '/faq',
+    to: '#',
     children: [
       {
         label: 'Modern Svins',
@@ -53,6 +53,6 @@ const items = ref<NavigationMenuItem[]>([
   <UApp>
     <UNavigationMenu :items="items" class="w-full justify-center" />
     <NuxtRouteAnnouncer />
-    <NuxtPage />
+    <NuxtPage id="body" />
   </UApp>
 </template>
