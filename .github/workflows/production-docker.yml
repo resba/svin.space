@@ -8,9 +8,7 @@ on:
 jobs:
   
   publish-docker-image:
-    runs-on: docker
-    container:
-      image: ubuntu:latest
+    runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
 
