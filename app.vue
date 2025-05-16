@@ -3,7 +3,7 @@ import type { NavigationMenuItem } from '@nuxt/ui'
 import {useSpeciesStore} from "~/store/species";
 const species = useSpeciesStore()
 const items = ref<NavigationMenuItem[]>([
-  {label: 'Svin.space',
+  {label: 'classic.svin.space',
     to: '/',
   },
   {
@@ -11,11 +11,13 @@ const items = ref<NavigationMenuItem[]>([
     icon: 'game-icons:dripping-goo',
     to: '/species'
   },
+    /**
   {
     label: species.value + ' Reference',
     icon: 'game-icons:leaky-skull',
     to: '/ref'
   },
+
   {
     label: 'What About...',
     icon: 'game-icons:barrel-leak',
@@ -32,15 +34,9 @@ const items = ref<NavigationMenuItem[]>([
         icon: 'i-lucide-file-text',
         description: 'What is the copyright and usage rules for '+ species.value +'?',
         to: '/faq/copyright'
-      },
-      {
-        label: 'The Creator',
-        icon: 'i-lucide-file-text',
-        description: 'Learn about the creator of Svins, Aesural',
-        to: '/faq/aesural'
       }
     ]
-  },
+  }, **/
   {
     label: 'Who Made This?',
     icon: 'game-icons:hazard-sign',
