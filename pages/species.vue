@@ -16,7 +16,7 @@ const species = useSpeciesStore()
       <p>As such, we've created this page to document the {{species.value}} species which follows the rules and guidelines that we all have been adhering to since 2018, after being functionally abandoned by the Creator.</p>
       <hr>
       <h2 class="page-header">Species Description Goes Here...</h2>
-
+      <p>TBD...</p>
       <h2 class="page-header">Updates to these Guidelines</h2>
       <p>Updates to these documents will only be for clarification or otherwise specification purposes. Because we are preserving and solidifing the {{ species.value }} guidelines, no new features, restrictions, or dramatic changes to the species will be tolerated.</p>
     </div>
