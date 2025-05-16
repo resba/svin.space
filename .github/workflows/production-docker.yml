@@ -1,0 +1,25 @@
+name: Publish Docker Image (Production)
+
+on:
+  push:
+    branches:
+      - main
+
+jobs:
+  
+  publish-docker-image:
+    runs-on: docker
+    steps:
+      - uses: actions/checkout@v2
+
+      - name: Login to GitHub Container Registry
+        uses: docker/login-action@v1
+        with:
+          registry: repo.jouleworks.net
+          username: yuu
+          password: ${{ secrets.ACCESS_TOKEN_DOCKER_REPO }}
+
+      - name: Build the production Backend Docker image
+        run: |
+          docker build . --tag repo.jouleworks.net/apps/svin.space:latest
+          docker push repo.jouleworks.net/apps/svin.space:latest
