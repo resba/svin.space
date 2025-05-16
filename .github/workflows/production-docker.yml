@@ -20,7 +20,8 @@ jobs:
           password: ${{ secrets.ACCESS_TOKEN_DOCKER_REPO }}
 
       - name: Build the production Backend Docker image
-        uses: docker/build-push-action@v6
+        uses: docker/build-push-action@v1
         with:
           push: true
-          tags: repo.jouleworks.net/apps/svin.space:latest
+          tags: apps/svin.space:latest
+          repository: 'repo.jouleworks.net'
