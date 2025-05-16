@@ -8,7 +8,7 @@ on:
 jobs:
   
   publish-docker-image:
-    runs-on: ubuntu-latest
+    runs-on: docker
     steps:
       - uses: actions/checkout@v2
 
@@ -20,6 +20,7 @@ jobs:
           password: ${{ secrets.ACCESS_TOKEN_DOCKER_REPO }}
 
       - name: Build the production Backend Docker image
-        run: |
-          docker build . --tag repo.jouleworks.net/apps/svin.space:latest
-          docker push repo.jouleworks.net/apps/svin.space:latest
+        uses: docker/build-push-action@v6
+        with:
+          push: true
+          tags: repo.jouleworks.net/apps/svin.space:latest
