@@ -11,9 +11,8 @@ const species = useSpeciesStore()
       <h3 class="text-center">{{species.value}} are characters from the Svin Species (hybrid inclusive) that adhere to the Semi-Open ruleset established before the May 2025 guidelines update by the original creator.</h3>
       <p>Since the species creation in 2017, a growing group of people joined the species as a clone of the popular Notkea character, or as a Hybrid Svin to engage in clone and identity play.</p>
       <p>The community surrounding the species is neither lead by nor endorses the creator's views on the species, and since distancing themselves from the original creator in 2018 have operated the species autonomously.</p>
-      <p>The creator sold all characters related to the species in 2018, which was then subsequently resold to other parties not involved in the Svin Community.</p>
       <p>In May of 2025, the creator begin taking interest in controlling the future of the species which was not discussed with the community of people with characters in the species. This included restrictions such as: Mandatory Character Death after a fixed time period, Mandatory Sexual Orientation of new Svins, Adherance to strict guidelines and general fraternization with the creator to stay in the species definition properly, and other guidelines that were deemed too restrictive and generally self-destructive.</p>
-      <p>As such, we've created this page to document the {{species.value}} species which follows the rules and guidelines that we all have been adhering to since 2018, after being functionally abandoned by the Original Creator after selling all characters.</p>
+      <p>As such, we've created this page to document the {{species.value}} species which follows the rules and guidelines that we all have been adhering to since 2018, after being functionally abandoned.</p>
       <hr>
       <h2 class="page-header">Species Description &amp; Features</h2>
       <p>In general, This describes the base canid-like form of a {{species.value}}. Everything can vary, especially when merging with other characters and borrowing their features.</p>
@@ -28,6 +27,7 @@ const species = useSpeciesStore()
         <li>Claws on hand and feet paws</li>
         <li>Pads only on feet paws</li>
         <li>Tongue can extend</li>
+        <li>Is usually found "Warfing", or saying "Warf" as a communal call/cry.</li>
       </ul>
       <p>Material:</p>
       <ul>
@@ -58,12 +58,12 @@ const species = useSpeciesStore()
         <li>Usually feminine, “twink” male</li>
         <li>Can also be muscular male or female</li>
         <li>Typically wears a bunch of accessories, and many characters can share the same accessory set due to the clone-play nature of the character. Those can vary depending on the context and scene.</li>
-        <li>Sexual Orientation or Gender Identity is not Perscribed by the Species</li>
+        <li>Sexual Orientation, Gender Identity, and Fetish Preference are not Perscribed by the Species</li>
       </ul>
 
       <p>Accessories:</p>
       <ul>
-        <li>Accessories can also melt along with Notkea</li>
+        <li>Accessories can also melt along with {{species.value}}</li>
         <li>Crown is metallic</li>
         <li>Collar and leg cuffs are rubber and metal</li>
         <li>Sleeves are shiny fabric</li>
@@ -73,7 +73,8 @@ const species = useSpeciesStore()
       </ul>
 
       <h2 class="page-header">Updates to these Guidelines</h2>
-      <p>Updates to these documents will only be for clarification or otherwise specification purposes. Because we are preserving and solidifing the {{ species.value }} guidelines, no new features, restrictions, or dramatic changes to the species will be tolerated.</p>
+      <p>Updates to these documents will only be for clarification or otherwise specification purposes. Because we are preserving and solidifying the {{ species.value }} guidelines, no new features, restrictions, or dramatic changes to the species will be tolerated.</p>
+      <p>In addition, this document constitutes the community's preservation and continuation of their characters, so not all original species definitions have carried over.</p>
     </div>
   </UContainer>
 </template>

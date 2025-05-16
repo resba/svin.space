@@ -12,11 +12,14 @@ const species = useSpeciesStore()
       <h3>tl;dr</h3>
       <ul>
         <li>1. This site documents the offshoot species known as {{species.value}}s, which follows the species guidelines established before the changes made by the original creator in May 2025.</li>
-        <li>2. {{species.value}}s are not organized or affiliated with the original species creator and shouldn't be viewed as such. We want nothing to do with him.</li>
-        <li>3. This document serves to support everyone in the community who owns a character in the original Svin Species and does not agree with the direction the species has been taken.</li>
-        <li>4. <a href="https://opguides.info/phil/copyright/#for-the-furries" target="_blank">You cannot copyright an idea.</a></li>
-        <li>5. Have fun!</li>
+        <li>2. {{species.value}}s are not organized or affiliated with the original species creator.</li>
+        <li>3. In no way, shape, or form should {{species.value}} characters be considered "Modern" or "Current" Svins.</li>
+        <li>4. This site serves to support everyone in the community who owns a character in the original Svin Species that wishes to keep the pre-2025 guideline set.</li>
+        <li>5. This guideline set includes additional changes made by the community in general over the years of maintainership!</li>
+        <li>6. Have fun! Warf!</li>
       </ul>
+      <p><a href="/species/">Species Guidelines</a></p>
+
     </div>
   </UContainer>
 </template>
